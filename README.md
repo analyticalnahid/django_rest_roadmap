@@ -32,7 +32,8 @@ Welcome to the Django REST Framework Mastery Course! In this comprehensive cours
 - [Internationalization](#internationalization)
 - [AJAX, CSRF, and CORS](#ajax-csrf-and-cors)
 - [HTML & Form](#html--form)
-  
+
+## Modules
 
 - Module 1: [Request and Response]
   - Understanding HTTP requests and responses
