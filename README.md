@@ -34,7 +34,7 @@ Welcome to the Django REST Framework Mastery Course! In this comprehensive cours
 - [HTML & Form](#html--form)
   
 
-- Module 1: [Request and Response](#request-and-response)
+- Module 1: [Request and Response]
   - Understanding HTTP requests and responses
   - Anatomy of a request and response
   - Handling different HTTP methods (GET, POST, PUT, DELETE)
