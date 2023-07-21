@@ -292,6 +292,33 @@ Welcome to the Django REST Framework Mastery Course! In this comprehensive cours
     - Writing integration tests for API endpoints
     - Measuring and improving test coverage
 
+- Module 24: Document Your API
+  - Importance of API documentation
+  - Tools and frameworks for API documentation
+  - Documenting your Django REST Framework API
+    - Using Django REST Swagger
+    - Using Django Rest Framework API Documentation
+  - Writing clear and concise API documentation
+
+- Module 25: API Client
+  - Building an API client for your Django REST Framework API
+  - Consuming API endpoints using the client
+  - Handling authentication and authorization in the client
+  - Managing API requests and responses in the client
+
+- Module 26: Internationalization
+  - Internationalizing your Django REST Framework API
+  - Translating API responses based on user's language preferences
+  - Configuring language settings in Django
+  - Handling multilingual responses and error messages
+
+- Module 27: AJAX, CSRF, and CORS
+  - Implementing AJAX requests in Django REST Framework
+  - Dealing with CSRF protection in AJAX requests
+  - Cross-Origin Resource Sharing (CORS)
+  - Configuring CORS settings in Django REST Framework
+
+
 
 ## Contribution and Feedback
 
