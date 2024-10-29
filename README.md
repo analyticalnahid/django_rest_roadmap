@@ -5,9 +5,9 @@ Welcome to the Django REST Framework Mastery Course! In this comprehensive cours
 ## Table of Contents
 
 - [Request and Response](#request-and-response)
+- [Serializers](#serializers)
 - [Views](#views)
 - [Router](#router)
-- [Serializers](#serializers)
 - [Parsers](#parsers)
 - [Renderers](#renderers)
 - [Validator](#validator)
@@ -31,11 +31,10 @@ Welcome to the Django REST Framework Mastery Course! In this comprehensive cours
 - [API Client](#api-client)
 - [Internationalization](#internationalization)
 - [AJAX, CSRF, and CORS](#ajax-csrf-and-cors)
-- [HTML & Form](#html--form)
 
 ## Modules
 
-- Module 1: [Request and Response]
+- Module 1: Request and Response
   - Understanding HTTP requests and responses
   - Anatomy of a request and response
   - Handling different HTTP methods (GET, POST, PUT, DELETE)
@@ -45,8 +44,26 @@ Welcome to the Django REST Framework Mastery Course! In this comprehensive cours
     - Common HTTP status codes and their meanings
     - Customizing error responses
     - Handling authentication and authorization errors
+    
+- Module 2: Serializers
+  - Introduction to serializers
+  - Serializer fields: Handling different types of data
+    - Field types: CharField, IntegerField, BooleanField, etc.
+    - Validating and transforming data with serializer fields
+    - Handling read-only and write-only fields
+  - Serializer relations: Dealing with model relationships
+    - PrimaryKeyRelatedField and ForeignKey relationships
+    - SerializerMethodField for custom serialization
+    - Handling nested relationships and related objects
+  - Nested serializers and serializer inheritance
+    - Serializing nested data structures
+    - Creating reusable serializer components
+  - Serializing and deserializing data
+    - Serializing model instances
+    - Deserializing and validating input data
+    - Handling file uploads with serializers
 
-- Module 2: Views
+- Module 3: Views
   - Introduction to views in Django REST Framework
   - Functional views: Writing views as functions
     - Defining URL patterns and routing
@@ -68,7 +85,7 @@ Welcome to the Django REST Framework Mastery Course! In this comprehensive cours
     - Handling nested routes and relationships
     - Customizing viewset behavior
 
-- Module 3: Router
+- Module 4: Router
   - Setting up a router for automatic URL routing
   - Registering views and viewsets with the router
   - Generating URLs for API endpoints
@@ -78,24 +95,6 @@ Welcome to the Django REST Framework Mastery Course! In this comprehensive cours
   - Customizing router behavior
     - URL prefixes and naming conventions
     - Custom routes and URL patterns
-
-- Module 4: Serializers
-  - Introduction to serializers
-  - Serializer fields: Handling different types of data
-    - Field types: CharField, IntegerField, BooleanField, etc.
-    - Validating and transforming data with serializer fields
-    - Handling read-only and write-only fields
-  - Serializer relations: Dealing with model relationships
-    - PrimaryKeyRelatedField and ForeignKey relationships
-    - SerializerMethodField for custom serialization
-    - Handling nested relationships and related objects
-  - Nested serializers and serializer inheritance
-    - Serializing nested data structures
-    - Creating reusable serializer components
-  - Serializing and deserializing data
-    - Serializing model instances
-    - Deserializing and validating input data
-    - Handling file uploads with serializers
 
 - Module 5: Parsers
   - Understanding parsers in Django REST Framework
